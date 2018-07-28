@@ -1,0 +1,46 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="botcorps.intenciones.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABRIR PAGINA WEB"
+            android:onClick="pgWeb"/>
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LLAMADA DE TELEFONO" />
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GOOGLE MAPS"
+            android:onClick="googleMaps"/>
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOMA FOTO"
+            android:onClick="tomarFoto"/>
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MANDA CORREO"
+            android:onClick="mandarCorreo"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
